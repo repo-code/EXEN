@@ -232,12 +232,12 @@ class Juniper extends React.Component {
         }
         this.log(() => console.info('requesting kernel'))
         const url = this.props.url.split('//')[1]
-        const action = !this.state.fromStorage ? 'Launching' : 'Reconnecting to'
+        const action = !this.state.fromStorage ? 'Connecting to server,' : 'Reconnecting to server,'
         outputArea.model.clear()
         outputArea.model.add({
             output_type: 'stream',
             name: 'stdout',
-            text: `${action} Docker container on ${url}...`,
+            text: `${action}  please wait...`,
         })
         new Promise((resolve, reject) =>
             this.getKernel()
