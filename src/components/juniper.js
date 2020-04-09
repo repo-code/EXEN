@@ -237,7 +237,7 @@ class Juniper extends React.Component {
         outputArea.model.add({
             output_type: 'stream',
             name: 'stdout',
-            text: `${action}  please wait...`,
+            text: `${action} please wait...`,
         })
         new Promise((resolve, reject) =>
             this.getKernel()
