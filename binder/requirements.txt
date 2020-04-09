@@ -1,0 +1,13 @@
+wasabi>=0.2.1,<1.1.0
+matplotlib
+numpy==1.16.4
+pandas
+pip
+setuptools
+tensorflow>=1.12.1
+keras==2.1.6
+scikit-image
+scikit-learn
+scipy
+opencv-python
+Pillow
