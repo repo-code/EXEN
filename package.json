@@ -3,7 +3,7 @@
     "private": true,
     "description": "Create python exercises",
     "version": "0.0.1",
-    "author": "YSZ,
+    "author": "YSZ",
     "dependencies": {
         "@illinois/react-use-local-storage": "^1.1.0",
         "@jupyterlab/outputarea": "^0.19.1",
