@@ -1,5 +1,5 @@
 {
-    "courseId": "course-starter-python",
+    "courseId": "exercises",
     "title": "Exercises",
     "slogan": " ",
     "description": false,
@@ -9,7 +9,7 @@
     "fonts": "IBM+Plex+Mono:500|IBM+Plex+Sans:700|Lato:400,400i,700,700i",
     "testTemplate": "from wasabi import Printer\n__msg__ = Printer()\n__solution__ = \"\"\"${solution}\"\"\"\n\n${solution}\n\n${test}\n\ntry:\n    test()\nexcept AssertionError as e:\n    __msg__.fail(e)",
     "juniper": {
-        "repo": "repo-code/course",
+        "repo": "repo-code/exercises",
         "branch": "master",
         "lang": "python",
         "kernelType": "python3",
@@ -17,9 +17,9 @@
     },
     "showProfileImage": false,
     "footerLinks": [
-        { "text": "Website", "url": "https://spacy.io" },
-        { "text": "Source", "url": "https://github.com/ines/course-starter-python" },
-        { "text": "Built with ♥", "url": "https://github.com/ines/course-starter-python" }
+        { "text": "Website", "url": "https://github.com/" },
+        { "text": "Source", "url": "https://github.com/" },
+        { "text": "Built with ♥", "url": "https://github.com/" }
     ],
     "theme": "#de7878"
 }
