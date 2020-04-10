@@ -1,6 +1,6 @@
 def test():
 
-    assert func(4,6,8) == (28, 'hello', 8), "Wrong Answer"
+    assert func(4,6,8) == (28, 'hello', 8), "...أجابة خاطئة يرجى اعادة التحقق من الجواب"
     
     assert(
     "x=a*b" in __solution__ or 'x = a * b' in __solution__ or "x = a*b" in __solution__ or "x= a*b" in __solution__ or "x =a*b" in __solution__
