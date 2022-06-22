@@ -1,6 +1,6 @@
 wasabi>=0.2.1,<1.1.0
 matplotlib
-numpy==1.16.4
+numpy==1.22.0
 pandas
 pip
 setuptools
